@@ -1,6 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap');
 
-* {
-    background-color: burlywood;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'IBM Plex Mono', monospace, Arial, Helvetica, sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 80px;
+}
+
+.container__logo{
+    margin-left: 100px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.logo-podcast {
+    height: 36px;
+    width: 36px;
+}
+
+.nav-right-section {
+    margin-top: 26px;
+    margin-right: 100px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-right-element a {
+    margin-left: 48px;
+    text-decoration: none;
+    color: #060A24;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+
